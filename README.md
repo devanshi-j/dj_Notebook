@@ -21,7 +21,6 @@ My Keyword Directory
                      3. Routing etc.
             Intranet (LAN)
 
-
 SEVERS:
 1. DESKTOP COMPUTING:
               offers: upto 8GB, 16GB RAM and is not Sharable.
@@ -35,4 +34,91 @@ HYPERVISOR: type-1 (before installing operating system)
 
 
 TIM BERNERS LEE: THE DEVELOPER OF WEB
+
+
+LAYERS: 
+there are in total 7 layers:
+
+OSI MODEL
+L1: PHYSICAL (cable, connectors etc)
+L2: LINKS (mAC addrexx or NIC address, NIC = Network Interface Card)
+L3: IP address
+L4: Port address
+
+TCP/IP MODEL
+L5: Full/half Duplex RCP
+L6: Presentation (ACSII)
+L7: Application (DNS, https etc)
+
+PORT NUMBER:
+FTP: 21 OR 20
+SMTP: 25
+SSH: 22
+TelNet: 23
+
+TLS (Transport Lane Security) = L3 + L4
+
+HTTPS: HYPERTEXT TRANSFER PROTOCOL SECURE SOCKET LAYER
+
+2 types of architecture:
+1. VON NUMAN ARCHITECTURE: basic concept states that program should be in the main memory.
+2. HARVARD ARCHITECTURE.
+
+
+CRYPTOGRAPHY: 
+1. CLASSICAL CRYPTOGRAPHY
+2. POST QUANTUM CRYPTOGRAPHY
+
+GITHUB, Bitcoin, Data Structure uses Merkel tree structure
+
+DATA STRUCTURE:
+
+1. Primitive: int, float, char etc.
+2. Non-Primitive:
+       1. Linear:
+            a. Quene (First in first out)
+            b. Array
+            c. Stack (Last in first out)
+       2. Non-Linear:
+            a. Tree
+            b. Graph
+
+   FORMATION OF PROGRAMMING LANGUAGE:
+   1. SYNTAX: basic structure, differs language to language.
+   2. OOPS: Object Oriented Programming Structure
+             a. CLASS: Blueprint
+             b. OBJECT: Final Structure
+             c. REFRENCE: A link to object
+             d. CONSTRUCTER: name of constructer = name of class
+             e. NEW (Keyword): helps to create space in memory
+             f. ENCAPSULATION: Combined forms
+             g. ABSTRACTION: To hide
+             h. POLYMORPHISM Differention of many forms
+             i. INHERITENCE: same thing has different properties
+   4. DATA STRUCTURE
+   5. FUNCTIONS:
+         1. Create a function
+         2. Call a function   
+   6. LOOPS:
+          a. for loop
+          b. while loop
+   9. CONDITIONS:
+          a. if statement
+          b. else statement
+
+
+   VON NUMAN ARCHITECTURE:
+
+    1. IDE (Integreted Development Environment)
+         eg: VS Code, Atom etc.
+    2. Compiler
+    3. Converts code into Assembly Language
+    4. Linker (Links Libraries)
+    5. Loader (transfers program to main memory)
+    6. Optimisation (reduces the file size)
+
+
+
+
+
 
