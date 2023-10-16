@@ -118,7 +118,63 @@ DATA STRUCTURE:
     6. Optimisation (reduces the file size)
 
 
+WHAT ARE THE MAIN ELEMENTS OF BACKEND COMPUTING?
+1. Containerization
+   This process bundels up all the codes and libraries it needs to run a particular infrastucture.
+   Eg:DOCKER, it is just like when a musician collects all the notes in his head needed to play a particular song.
 
+2. CI/CD Pipeline
+   CI stands for continous integration and CD stands for continous deployment. It inroduces automation in building apps.
+   CI brings automation to changes to code of an app on a regular basis. CD's job is to deploy it correctly and then monitor it.
+   This cycle runs in a circle. EG: Jenkins or CI cirle.
 
+3. Architectural Patterns
+   For example you are facing the same problem that someone faced in past. In this case the architectural pattens would jump
+   in to provide you the solution to that problem.
+    I Microservices (currently used)
+       Relies on a series of independently deployable services.
+    II Monolithic   (outdated)
+       A monolithic architecture is a traditional model of a software program, which is built as a
+       unified unit that is self-contained and independent from other applications.
+       This allows everything in the monolith to be released at once.
+    III Serverless   (in future will move towards this)
+        a way to build and run applications and services without having to manage infrastructure.
+        Your application still runs on servers, but all the server management is done by AWS.
 
+4. API's (Application Programming Interface)
+    APIs are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols.
+    For eg: in a weather app the sender of information is a server, the reciever of information, your mobile app
+    is the client. It shows communication between these two parties.
+    TYPES:
+     Private APIs
+     These are internal to an enterprise and only used for connecting systems and data within the business.
+     Public APIs 
+     These are open to the public and may be used by anyone. There may or not be some authorization and cost associated with these types of APIs.
+     Partner APIs 
+     These are only accessible by authorized external developers to aid business-to-business partnerships.
+     Composite APIs 
+     These combine two or more different APIs to address complex system requirements or behaviors. 
 
+    EXAMPLES:
+      SOAP APIs 
+      These APIs use Simple Object Access Protocol. Client and server exchange messages using XML.
+      This is a less flexible API that was more popular in the past.
+      REST API's
+      REST stands for Representational State Transfer. REST defines a set of functions like GET, PUT, DELETE, etc. that clients can use to access server data. Clients and 
+      servers exchange data using HTTP.The main feature of REST API is statelessness. Statelessness means that servers do not save client data between requests. Client 
+      requests to the server are similar to URLs you type in your browser to visit a website.
+
+   WHAT ARE API Gateways:
+     An API gateway is a component of the app-delivery infrastructure that sits between clients and services and provides centralized handling of API communication between 
+     them. It also delivers multi-cloud, and hybrid environments.
+
+   5. VCS (Version Control System)
+      A version control system (VCS) tracks changes to a file or set of files over time. The most common type is a centralized VCS, which uses a server to store all the 
+      versions of a file.
+      Example: GitHub
+
+   6. Testing:
+      Integration testing: a type of software testing in which the different units, modules or components of a software application are tested as a combined entity.
+      Unit testing:  a software development process in which the smallest testable parts of an application, called units, are individually scrutinized for proper operation.
+      Functional testing: The purpose of Functional tests is to test each function of the software application, by providing appropriate input, verifying the output 
+      against the Functional requirements.
