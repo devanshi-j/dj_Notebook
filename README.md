@@ -184,14 +184,65 @@ WHAT ARE THE MAIN ELEMENTS OF BACKEND COMPUTING?
        and may also be used in correlation with a software component.
       A cache's primary purpose is to increase data retrieval performance by reducing the need to access the underlying slower storage layer.
       For example when RAM stores data in a PC.
+  
+       HOW DOES CDN (Content Delivery Network) WORK??
+     CDNs cache content like web pages, images, and video in proxy servers near to your physical location. This allows you to do things like watch a movie, download 
+     software, check your bank balance, post on social media, or make purchases, without having to wait for content to load. Just like an ATM, it functions on the
+     model of POP's, points if presence
 
-        REDIS: Redis is an open source, in-memory, key-value data store most commonly used as a primary database, cache, message broker, and queue.
-               Redis Enterprise is the only true datastore built for hybrid and multicloud applications.
+     REDIS: Redis is an open source, in-memory, key-value data store most commonly used as a primary database, cache, message broker, and queue.
+     Redis Enterprise is the only true datastore built for hybrid and multicloud applications.
 
-   8. Database:
+   9. Database:
         I. A relational database is one that stores data in tables. The relationship between each data point is
         clear and searching through those relationships is relatively easy.
         Eg: PostgreSQL, MySQLetc.
         II. A non-relational database is any database that does not use the tabular schema of rows and columns
         like in relational databases. Rather, its storage model is optimized for the type of data it’s storing.
         Eg: MongoDB, Redis etc.
+
+      
+
+  Difference between virtual machines and containers:
+
+  1. Virtual Machine: A virtual machine is a virtual representation, or emulation, of a physical computer.
+      They are often referred to as a guest while the physical machine they run on is referred to as the host.
+
+     Hypervisors:
+     Type 1:Type 1 hypervisors run directly on the physical hardware (usually a server), taking the place of the OS.
+            Typically, you use a separate software product to create and manipulate VMs on the hypervisor.
+     Type 2:Type 2 hypervisors run as an application within a host OS and usually target single-user desktop or notebook platforms.
+            With a Type 2 hypervisor, you manually create a VM and then install a guest OS in it.
+
+  2. Containers: Instead of virtualizing the underlying hardware, containers virtualize the operating system (typically Linux)
+ so each individual container contains only the application and its libraries and dependencies.
+The absence of the guest OS is why containers are so lightweight and, thus, fast and portable.Containers,
+ and the orchestration engine that manages them, Kubernetes.
+
+  DOCKER: This application manages containers.Containers are made in docker. For eg: When a orchestra is playing music, the musicians (Containers) can be termed a docker.
+  
+  KUBERNETES: This application orchestrates containers. After creating containers in docker they can be uploaded in kubernetes. For eg: when a orchestra is playing
+  music the orchestrator maintaining the symphony among the musicians (Containers) can be termed as Kubernetes.
+
+  ![image](https://github.com/devanshi-j/dj_Notebook/assets/89416589/4829e2c7-112f-4cfb-aaf2-1c80ca73f792)
+
+
+  WHAT ARE NAMESPACES and CGROUPS?
+  NAMESPACES: It is a feature of LINUX kernes, the key feature of namespaces is that they isolate processes from each other.
+  On a server where you are running many different services
+
+  CGROUPS: So basically you use cgroups to control how much of a given key resource (CPU, memory, network, and disk I/O) can be accessed or used by a process or set of 
+  processes. Cgroups are a key component of containers because there are often multiple processes running in a container that you need to control together. In a Kubernetes 
+  environment, cgroups can be used to implement resource requests and limits at the pod level.
+
+  What is a POD?
+  A Kubernetes pod is a collection of one or more Linux® containers, and is the smallest unit of a Kubernetes application. 
+  
+  WHAT ARE BORGS?
+  A task manager by google, it runs 1000's of application and machines of a cluster at the same time.
+
+  
+
+     
+
+   
