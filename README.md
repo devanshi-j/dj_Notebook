@@ -178,3 +178,20 @@ WHAT ARE THE MAIN ELEMENTS OF BACKEND COMPUTING?
       Unit testing:  a software development process in which the smallest testable parts of an application, called units, are individually scrutinized for proper operation.
       Functional testing: The purpose of Functional tests is to test each function of the software application, by providing appropriate input, verifying the output 
       against the Functional requirements.
+      
+   7. Cashing
+      The data in a cache is generally stored in fast access hardware such as RAM (Random-access memory)
+       and may also be used in correlation with a software component.
+      A cache's primary purpose is to increase data retrieval performance by reducing the need to access the underlying slower storage layer.
+      For example when RAM stores data in a PC.
+
+        REDIS: Redis is an open source, in-memory, key-value data store most commonly used as a primary database, cache, message broker, and queue.
+               Redis Enterprise is the only true datastore built for hybrid and multicloud applications.
+
+   8. Database:
+        I. A relational database is one that stores data in tables. The relationship between each data point is
+        clear and searching through those relationships is relatively easy.
+        Eg: PostgreSQL, MySQLetc.
+        II. A non-relational database is any database that does not use the tabular schema of rows and columns
+        like in relational databases. Rather, its storage model is optimized for the type of data it’s storing.
+        Eg: MongoDB, Redis etc.
