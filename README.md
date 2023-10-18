@@ -21,19 +21,83 @@ My Keyword Directory
                      3. Routing etc.
             Intranet (LAN)
 
+4. SSL Certificate - Certificate which is statndard for all the domains X.509
+Certifying Authority like Godaddy, Hostinger, Namecheap
+Signing Certificate Algo is Cryptography : RSA, Elliptic Curve
+
+5. NAT - Network Address Translation : Convert Private IP Address to public IP Address & vice-versa
+
 SEVERS:
 1. DESKTOP COMPUTING:
               offers: upto 8GB, 16GB RAM and is not Sharable.
 3. CLOUD COMPUTING: It is sharable
               offers: upto 2TB of RAM storage.
 
+Server - a computer program or device that provides a service to another computer program and its user, also known as the client.
+
+Client Server - A relationship in which one program, the client, requests a service or resource from another program, the server. EX - email, network printing, and the World Wide Web
+
+Proxy Server - A server that acts as an intermediary between the request made by clients EX - an HTTP proxy intercepts web access, and an SMTP proxy intercepts email
+
+![image](https://github.com/devanshi-j/dj_Notebook/assets/89416589/abde61cb-afbe-4ee3-8060-0e827cc6e956)
+
 BARE METAL: Servers that have no information stored inside them, in other words FRESH SEVERS.
 Dual Boot: Installation of two operating system on the same sevrer (DONE WITH THE HELP OF HYPERVISOR, VMWARE OR VIRTUAL BOX).
 HYPERVISOR: type-1 (before installing operating system)
             type-2 (after installing operating system)
 
+LINUX Basic Commands: ls - List directory content
+cd - Change directory
+mkdir - Make a new directory
+rm- Remove Files/Directories
+mv - Move or rename files or directories
+chmod - Change files or Directories permission
+chmod 777 command gives read, write and execute permissions
+cp - Copy Files or Directories
+chown - Change file or directory ownership
+top - Display system process
+cat - Concatenate and siplay files
+tar - Create or extract archieve files
+ps - Display running Processes
+kill - Terminate Processes
+pwd - Present working Directory
+sudo - Execute Command as a superuser
+ping - Test Network Connectivity b/w hosts
+du - Estimate File Space Usage
+vi & nano - File editor
+touch - Create new File
+
+
+DIRACTIORIES IN UBNTU:
+/bin - user Binaries
+/sbin - System Binaries
+/etc - Configuration Files
+/dev - Device Files
+/proc - Process Information
+/var - Variable Files
+/tmp - Temporary Files
+/usr - User Programs
+/home - Home Directories
+/boot - Boot Loader Files
+/lib - System Libraries
+/opt - Operational Application
+/mnt - Mount Directory
+/media - Removable Devices
+/srv - Service Data
 
 TIM BERNERS LEE: THE DEVELOPER OF WEB
+
+Blockchain:
+1. Satoshi Nakamoto is the creator of Blockchain
+2. Blockchain technology is an advanced database mechanism that allows transparent information sharing within a business network.
+3. Blockchain helps in the verification and traceability of multistep transactions needing verification and traceability.
+4. Blockchain uses the three principles of cryptography, decentralization, and consensus to create a highly secure underlying software system that is nearly impossible to tamper with.
+
+
+CURRENCY
+Cryptocurrencies are digital currencies that use cryptography to secure and verify transactions in a network. Cryptography is also used to manage and control the creation of such currencies : Bitcoin and Ethereum
+Virtual currencies are a form of digital currency. They are issued by private parties, such as a group of developers or organizations, and are intended only for online use
+ICO - An initial coin offering (ICO) is the cryptocurrency industry's equivalent of an initial public offering (IPO) used in order to raise capital
 
 
 LAYERS: 
@@ -56,9 +120,26 @@ SMTP: 25
 SSH: 22
 TelNet: 23
 
+
+Port Forwarding - It allows computers or services in private networks to connect over the internet with other public or private computers or services.
+![image](https://github.com/devanshi-j/dj_Notebook/assets/89416589/1694cd66-6906-421b-982f-e687ee5f4574)
+
+
 TLS (Transport Lane Security) = L3 + L4
 
 HTTPS: HYPERTEXT TRANSFER PROTOCOL SECURE SOCKET LAYER
+
+HTTP/1.1
+It works on the textual format.	It works on the binary protocol.
+There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.	
+It uses requests resource Inlining for use getting multiple pages
+It compresses data by itself.
+
+HTTP/2
+It works on the binary protocol.
+It allows multiplexing so one TCP connection is required for multiple requests.
+It uses PUSH frame by server that collects all multiple pages
+It uses HPACK for data compression.
 
 2 types of architecture:
 1. VON NUMAN ARCHITECTURE: basic concept states that program should be in the main memory.
@@ -70,6 +151,10 @@ CRYPTOGRAPHY:
 2. POST QUANTUM CRYPTOGRAPHY
 
 GITHUB, Bitcoin, Data Structure uses Merkel tree structure
+
+etcd - It is an open source distributed key-value store used to hold and manage the critical information that distributed systems need to keep running. Most notably, it manages the configuration data, state data, and metadata for Kubernetes, the popular container orchestration platform.
+
+Ceph - Ceph is an open-source software-defined storage platform that provides object, block, and file storage. It's designed to be self-healing and self-managed, and it can run on any hardware Ceph is maintained by RedHat. It's built on a common distributed cluster foundation. The clusters are designed to run on any hardware with the help of an algorithm called CRUSH (Controlled Replication Under Scalable Hashing).
 
 DATA STRUCTURE:
 
@@ -252,7 +337,11 @@ The absence of the guest OS is why containers are so lightweight and, thus, fast
   it configures network interfaces in Linux containers. And it is concerned mainly with adding, 
   connecting and deleting disconnecting containers to networks.
 
-  CNI FLANNEL TUNNEL:
+  CNI PLUGINS
+  Cilium - Cilium is a highly scalable Kubernetes Container Network Interface (CNI). It provides cloud-native networking connectivity, security, and observability for container-based workloads, such as in Kubernetes and Docker. It provides visibility and 
+  control over network traffic, and offers advanced security features.
+
+  Flannel:
 
   OVERLAY NETWORK: 
   An overlay network is a virtual or logical network that is created on top of an existing physical network. 
