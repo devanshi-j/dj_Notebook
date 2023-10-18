@@ -188,7 +188,7 @@ WHAT ARE THE MAIN ELEMENTS OF BACKEND COMPUTING?
        HOW DOES CDN (Content Delivery Network) WORK??
      CDNs cache content like web pages, images, and video in proxy servers near to your physical location. This allows you to do things like watch a movie, download 
      software, check your bank balance, post on social media, or make purchases, without having to wait for content to load. Just like an ATM, it functions on the
-     model of POP's, points if presence
+     model of POP's, points of presence.
 
      REDIS: Redis is an open source, in-memory, key-value data store most commonly used as a primary database, cache, message broker, and queue.
      Redis Enterprise is the only true datastore built for hybrid and multicloud applications.
@@ -226,6 +226,7 @@ The absence of the guest OS is why containers are so lightweight and, thus, fast
 
   ![image](https://github.com/devanshi-j/dj_Notebook/assets/89416589/4829e2c7-112f-4cfb-aaf2-1c80ca73f792)
 
+  Kubevirt: KubeVirt is an addon that enables creation of virtual machine on Kubernetes.
 
   WHAT ARE NAMESPACES and CGROUPS?
   NAMESPACES: It is a feature of LINUX kernes, the key feature of namespaces is that they isolate processes from each other.
@@ -241,6 +242,29 @@ The absence of the guest OS is why containers are so lightweight and, thus, fast
   WHAT ARE BORGS?
   A task manager by google, it runs 1000's of application and machines of a cluster at the same time.
 
+  WHAT IS A HCI (hyper convered infrastructure):
+  Hyperconverged infrastructure (HCI) is a type of data center infrastructure that virtualizes computing, storage and networking elements in a single system through a 
+  hypervisor. virtualized abstractions managed by a hypervisor replaces all physical hardware components.
+
+  KERNEL BYPASS:
+
+  CNI (container network interface):
+  it configures network interfaces in Linux containers. And it is concerned mainly with adding, 
+  connecting and deleting disconnecting containers to networks.
+
+  CNI FLANNEL TUNNEL:
+
+  OVERLAY NETWORK: 
+  An overlay network is a virtual or logical network that is created on top of an existing physical network. 
+  The overlay creates a new layer where traffic can be programmatically directed through new virtual network routes or paths instead of requiring physical links.
+
+  eth0 = physical link.
+  
+  enh = states fiber net for fast internet.
+
+  TUN/TAP: 
+
+  
   
 
      
