@@ -40,20 +40,7 @@ It uses HPACK for data compression.
 *Client Server - A relationship in which one program, the client, requests a service or resource from another program, the server. EX - email, network printing, and the World Wide Web
 *Proxy Server - A server that acts as an intermediary between the request made by clients EX - an HTTP proxy intercepts web access, and an SMTP proxy intercepts email.
 
-Different Components of Back end:
-1. 3. Architectural Patterns
-   For example you are facing the same problem that someone faced in past. In this case the architectural pattens would jump
-   in to provide you the solution to that problem.
-    I Microservices (currently used)
-       Relies on a series of independently deployable services.
-    II Monolithic   (outdated)
-       A monolithic architecture is a traditional model of a software program, which is built as a
-       unified unit that is self-contained and independent from other applications.
-       This allows everything in the monolith to be released at once.
-    III Serverless   (in future will move towards this)
-        a way to build and run applications and services without having to manage infrastructure.
-        Your application still runs on servers, but all the server management is done by AWS.
-![image](https://github.com/devanshi-j/dj_Notebook/assets/89416589/abde61cb-afbe-4ee3-8060-0e827cc6e956)
+
 
 *Dual Boot: Installation of two operating system on the same sevrer (DONE WITH THE HELP OF HYPERVISOR, VMWARE OR VIRTUAL BOX).
 *Hypervisors:
@@ -107,6 +94,21 @@ The absence of the guest OS is why containers are so lightweight and, thus, fast
 
 
 3. HARVARD ARCHITECTURE- Only has one memory..
+
+*Different Components of Back end:
+1. 3. Architectural Patterns
+   For example you are facing the same problem that someone faced in past. In this case the architectural pattens would jump
+   in to provide you the solution to that problem.
+    I Microservices (currently used)
+       Relies on a series of independently deployable services.
+    II Monolithic   (outdated)
+       A monolithic architecture is a traditional model of a software program, which is built as a
+       unified unit that is self-contained and independent from other applications.
+       This allows everything in the monolith to be released at once.
+    III Serverless   (in future will move towards this)
+        a way to build and run applications and services without having to manage infrastructure.
+        Your application still runs on servers, but all the server management is done by AWS.
+![image](https://github.com/devanshi-j/dj_Notebook/assets/89416589/abde61cb-afbe-4ee3-8060-0e827cc6e956)
 # Networks
          COMPONENTS:
                      1. IP addess
